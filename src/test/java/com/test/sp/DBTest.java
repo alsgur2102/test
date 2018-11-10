@@ -23,7 +23,7 @@ import lombok.extern.slf4j.Slf4j;
 @ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
 @Slf4j
 public class DBTest {
-	
+	/*
 	@Autowired
 	private AwsTestDAO atdao;
 	
@@ -39,7 +39,7 @@ public class DBTest {
 	public void tests() throws SQLException {
 		assertEquals(1, ats.selectTestList().size());
 	}
-	
+	*/
 	/*@Autowired
 	private SqlSession ss;
 	
